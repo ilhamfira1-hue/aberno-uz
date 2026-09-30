@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Smaylo spredi">
+  <defs>
+    <radialGradient id="s-bg" cx="50%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#ffeee6"/>
+      <stop offset="1" stop-color="#ffd6c4"/>
+    </radialGradient>
+    <linearGradient id="s-body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d4542a"/>
+      <stop offset=".35" stop-color="#f68a5f"/>
+      <stop offset=".7" stop-color="#ef6c3e"/>
+      <stop offset="1" stop-color="#c64a22"/>
+    </linearGradient>
+    <linearGradient id="s-lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f2e8e0"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="200" cy="200" r="190" fill="url(#s-bg)"/>
+  <circle cx="78" cy="118" r="8" fill="#ef6c3e" opacity=".4"/>
+  <circle cx="326" cy="132" r="6" fill="#ef6c3e" opacity=".35"/>
+  <circle cx="330" cy="300" r="5" fill="#ef6c3e" opacity=".35"/>
+
+  <ellipse cx="200" cy="322" rx="120" ry="15" fill="#102a43" opacity=".13"/>
+
+  <path d="M95 176 L112 300 A88 20 0 0 0 288 300 L305 176 Z" fill="url(#s-body)"/>
+  <path d="M126 190 L139 292" stroke="#fff" stroke-opacity=".28" stroke-width="10" stroke-linecap="round"/>
+
+  <ellipse cx="200" cy="178" rx="107" ry="24" fill="#ddd0c5"/>
+  <rect x="93" y="160" width="214" height="18" fill="#efe5dc"/>
+  <ellipse cx="200" cy="160" rx="107" ry="24" fill="url(#s-lid)"/>
+  <ellipse cx="200" cy="160" rx="80" ry="16" fill="none" stroke="#ef6c3e" stroke-opacity=".35" stroke-width="3"/>
+
+  <text x="200" y="246" text-anchor="middle" font-family="'Arial Rounded MT Bold', Arial, Helvetica, sans-serif" font-weight="800" font-size="36" fill="#ffffff">Smaylo</text>
+  <path d="M168 258 Q200 284 232 258" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="200" y="298" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="10" letter-spacing="3" fill="#ffffff" opacity=".85">SPRED</text>
+</svg>

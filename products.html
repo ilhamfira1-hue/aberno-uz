@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahsulotlar — Aberno Group</title>
+  <meta name="description" content="Aberno Group mahsulotlari: Margaritto margarini, Smaylo spredi va Bulut qogʻoz mahsulotlari.">
+  <meta property="og:title" content="Mahsulotlar — Aberno Group">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#102a43">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Asosiy kontentga oʻtish</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Aberno Group — bosh sahifa">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true"><rect class="logo__bg" width="40" height="40" rx="11"/><path class="logo__a" d="M12 29 20 11l8 18"/><circle class="logo__dot" cx="20" cy="23.5" r="3"/></svg>
+        <span class="logo__text">Aberno<span>Group</span></span>
+      </a>
+      <nav class="nav" id="site-nav" aria-label="Asosiy menyu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Bosh sahifa</a></li>
+          <li><a href="about.html" class="nav__link">Biz haqimizda</a></li>
+          <li class="nav__item--drop">
+            <a href="products.html" class="nav__link">Mahsulotlar</a>
+            <button class="nav__drop-toggle" type="button" aria-expanded="false" aria-label="Mahsulotlar roʻyxati"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+            <ul class="nav__drop">
+              <li><a href="margaritto.html" class="theme-margaritto"><span class="dot"></span><span>Margaritto<small>Margarin</small></span></a></li>
+              <li><a href="smaylo.html" class="theme-smaylo"><span class="dot"></span><span>Smaylo<small>Spred</small></span></a></li>
+              <li><a href="bulut.html" class="theme-bulut"><span class="dot"></span><span>Bulut<small>Qogʻoz mahsulotlari</small></span></a></li>
+            </ul>
+          </li>
+          <li><a href="production.html" class="nav__link">Ishlab chiqarish</a></li>
+          <li><a href="partners.html" class="nav__link">Hamkorlarga</a></li>
+          <li><a href="contact.html" class="nav__link">Aloqa</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn--primary header__cta">Bogʻlanish</a>
+      <button class="burger" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menyuni ochish"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <ol class="breadcrumbs">
+          <li><a href="index.html">Bosh sahifa</a></li>
+          <li><span aria-current="page">Mahsulotlar</span></li>
+        </ol>
+        <span class="eyebrow">Mahsulotlar</span>
+        <h1>Uch yoʻnalish, bitta sifat oʻlchovi</h1>
+        <p class="lead">Margarin, spred va qogʻoz mahsulotlari. Har biri oʻz oilamizga olib borishga tayyor boʻlgandagina sotuvga chiqadi.</p>
+      </div>
+    </section>
+
+    <section class="section theme-margaritto" id="margaritto">
+      <div class="container split">
+        <div class="split__media reveal"><img src="images/margaritto.svg" alt="Margaritto margarini" width="400" height="400"></div>
+        <div class="reveal" data-delay="1">
+          <span class="tag">01 · Margarin</span>
+          <h2>Margaritto</h2>
+          <p class="lead">Uy pishiriqlaridan tortib yirik qandolat ishlab chiqarishigacha — xamirga barqaror natija beradigan margarin.</p>
+          <ul class="checklist">
+            <li>Pishiriq va qandolat mahsulotlari uchun</li>
+            <li>Uy oshxonasi va professional ishlab chiqarishga mos</li>
+            <li>Har bir partiyada barqaror sifat</li>
+          </ul>
+          <a href="margaritto.html" class="btn btn--primary">Margaritto haqida</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cream theme-smaylo" id="smaylo">
+      <div class="container split split--reverse">
+        <div class="split__media reveal"><img src="images/smaylo.svg" alt="Smaylo spredi" width="400" height="400" loading="lazy"></div>
+        <div class="reveal" data-delay="1">
+          <span class="tag">02 · Spred</span>
+          <h2>Smaylo</h2>
+          <p class="lead">Nonushta dasturxonining quvnoq doʻsti — nonga oson surtiladigan yumshoq va mazali spred.</p>
+          <ul class="checklist">
+            <li>Nonga oson va tekis surtiladi</li>
+            <li>Nonushta va yengil gazaklar uchun</li>
+            <li>Butun oila uchun</li>
+          </ul>
+          <a href="smaylo.html" class="btn btn--primary">Smaylo haqida</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section theme-bulut" id="bulut">
+      <div class="container split">
+        <div class="split__media reveal"><img src="images/bulut.svg" alt="Bulut qogʻoz mahsulotlari" width="400" height="400" loading="lazy"></div>
+        <div class="reveal" data-delay="1">
+          <span class="tag">03 · Qogʻoz mahsulotlari</span>
+          <h2>Bulut</h2>
+          <p class="lead">Bulutdek yumshoq, ishonchli darajada mustahkam — uy va kundalik hayot uchun qogʻoz mahsulotlari.</p>
+          <ul class="checklist">
+            <li>Yumshoq va mustahkam</li>
+            <li>Kundalik gigiyena uchun</li>
+            <li>Uy va ofis uchun qulay</li>
+          </ul>
+          <a href="bulut.html" class="btn btn--primary">Bulut haqida</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cream">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <span class="eyebrow">Qayerdan xarid qilish mumkin</span>
+          <h2>Sizga qulay usulda</h2>
+        </div>
+        <div class="grid grid-2">
+          <article class="card card--lg reveal">
+            <div class="card__icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2.5a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 14v7h14v-7"/><path d="M10 21v-4h4v4"/></svg></div>
+            <h3>Savdo tarmoqlarida</h3>
+            <p>Mahsulotlarimiz respublikadagi savdo tarmoqlari va doʻkonlarda sotiladi.</p>
+          </article>
+          <article class="card card--lg theme-bulut reveal" data-delay="1">
+            <div class="card__icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62L18.3 9.38a1 1 0 0 0-.78-.38H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></div>
+            <h3>Korxonalar uchun toʻgʻridan-toʻgʻri</h3>
+            <p>Non va qandolat korxonalari hamda savdo tarmoqlari biz bilan toʻgʻridan-toʻgʻri ishlashi mumkin.</p>
+            <a href="partners.html" class="link-arrow">Hamkorlik shartlari</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <h2>Assortiment boʻyicha savolingiz bormi?</h2>
+            <p>Aniq assortiment, qadoq turlari va narxlar haqida biz bilan bogʻlanib ma’lumot oling.</p>
+          </div>
+          <div class="cta__actions">
+            <a href="contact.html" class="btn btn--gold">Soʻrov yuborish</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__about">
+        <a href="index.html" class="logo">
+          <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true"><rect class="logo__bg" width="40" height="40" rx="11"/><path class="logo__a" d="M12 29 20 11l8 18"/><circle class="logo__dot" cx="20" cy="23.5" r="3"/></svg>
+          <span class="logo__text">Aberno<span>Group</span></span>
+        </a>
+        <p>2021-yilda tashkil etilgan zamonaviy oʻzbek ishlab chiqarish kompaniyasi.</p>
+      </div>
+      <div>
+        <h4>Kompaniya</h4>
+        <ul class="footer__list">
+          <li><a href="about.html">Biz haqimizda</a></li>
+          <li><a href="production.html">Ishlab chiqarish</a></li>
+          <li><a href="partners.html">Hamkorlarga</a></li>
+          <li><a href="contact.html">Aloqa</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Mahsulotlar</h4>
+        <ul class="footer__list">
+          <li><a href="margaritto.html">Margaritto</a></li>
+          <li><a href="smaylo.html">Smaylo</a></li>
+          <li><a href="bulut.html">Bulut</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Aloqa</h4>
+        <!-- TODO: haqiqiy telefon, email va manzilni kiriting -->
+        <ul class="footer__list">
+          <li><a href="tel:+998000000000">+998 00 000-00-00</a></li>
+          <li><a href="mailto:info@aberno.uz">info@aberno.uz</a></li>
+          <li>Oʻzbekiston Respublikasi</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span data-year>2026</span> Aberno Group. Barcha huquqlar himoyalangan.</span>
+      <a href="#main">Yuqoriga ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
